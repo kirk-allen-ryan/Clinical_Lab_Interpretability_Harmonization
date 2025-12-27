@@ -1,3 +1,6 @@
+
+/* Numerator Script */
+
 SELECT
   CV_FAC_HIST.DISPLAY,
   ENCOUNTER.ENCNTR_ID,
