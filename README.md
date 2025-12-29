@@ -83,6 +83,26 @@ By applying a **Triple-Z Normalization** scheme, we exposed three conflicting "t
 
 ---
 
+
+> [!IMPORTANT]
+>
+> ### 💊 The Toxicology Trap: Hidden Analytical Discontinuity
+
+>
+> <img width="670" height="243" alt="image" src="https://github.com/user-attachments/assets/8f866a4e-0b7e-4ce0-84da-8697a2d57f3f" />
+>
+> **Critical Interpretive Drift in Fixed Therapeutic Ranges**
+>
+> In toxicology, clinicians often rely on "fixed" therapeutic or toxic thresholds memorized from [standard clinical protocols](https://www.poison.org/articles/acetaminophen-safety). However, as evidenced by the [Bio-Rad Unity Peer Data](https://www.bio-rad.com/en-us/product/unity-real-time), the underlying analytical platform can introduce systematic bias that renders these fixed standards dangerous across different sites. 
+>
+> **Acetaminophen (Level 1 Control) Variance:**
+> * **Atellica CH Mean:** 13.84 mg/L ($N = 29,927$ points)
+> * **Dimension Series Mean:** 22.56 mg/L ($N = 11,959$ points)
+>
+> This **63% analytical variance** between platforms from the *same manufacturer* means a patient could be sub-toxic on one machine and over the threshold on another—despite neither the patient’s condition nor the "official" therapeutic range changing. Without the [z-score normalization](https://github.com/kirk-allen-ryan/Clinical_Lab_Interpretability_Harmonization) proposed here, these methodology-driven shifts remain invisible to the clinician, directly fueling interpretive chaos.
+
+
+
 ### Limitations of Current Quality Assurance Paradigms
 Although existing quality assurance mechanisms such as [CAP proficiency testing](https://www.cap.org/laboratory-improvement/proficiency-testing) and [EQA programs](https://www.cap.org/laboratory-improvement/external-quality-assurance) assess analytic comparability, they generally target accuracy within similar methods, not **cross-lab interpretability**. Most CMP analytes lack proficiency indicators for normal/abnormal interpretation, leaving real-world variability unassessed.
 
