@@ -10,9 +10,22 @@ Reference intervals—the cornerstone for interpreting laboratory results—are 
 ### Case Study: Serum Calcium and the "Triple-Z" Conflict
 To illustrate this problem, we analyzed 11,382 serum calcium results across 10 hospital sites that share a common EMR, focusing on interpretive coherence by site. 
     
-## 📉 Table: Distribution of Published Lower Limits (LL) by Site
+
 *Dataset: 11,382 Serum Calcium results over 12 months.*
-    
+
+---
+
+| Interpretive Classification | Prevalence (%) |
+| :--- | :--- |
+| Discordant (Low vs Normal) | 53.72% |
+| Always Low | 35.24% |
+| Universal Normal | 8.12% |
+| Discordant (Normal vs High) | 2.68% |
+| Always High | 0.25% |
+
+---
+
+ ## 📉 Table: Distribution of Published Lower Limits (LL) by Site 
 | Site Location | Total N | Dominant LL (mg/dL) | Variance in LL (Range) | % Fragmentation |
 | :--- | :---: | :---: | :---: | :---: |
 | **NE-1** | 490 | 8.5 | Fixed (8.5) | 0% |
