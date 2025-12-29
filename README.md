@@ -127,7 +127,7 @@ This study targets the **clinician-facing interpretive layer**, where variabilit
 
 ## 📂 Repository Artifacts
 * **[PROD_CA_SQL](https://github.com/kirk-allen-ryan/Clinical_Lab_Interpretability_Harmonization/blob/main/PROD_CA_SQL):** Production SQL for Calcium extraction.
-* **[Analysis Notebooks]:** Python implementation of Triple-Z normalization logic.
+* **[Analysis Notebooks](https://github.com/kirk-allen-ryan/Clinical_Lab_Interpretability_Harmonization/blob/main/2024_Calcium_Data_EDA.ipynb):** Python implementation of Triple-Z normalization logic.
 
 
 
