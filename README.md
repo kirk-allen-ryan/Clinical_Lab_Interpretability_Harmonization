@@ -112,9 +112,8 @@ To move from the theoretical to the clinical, consider the management of acute s
 ### 📊 Analysis: The "Chaos Zone" Outcomes (N = 536)
 
 To quantify the impact of interpretive drift, we isolated a cohort of **536 patients** who shared three specific encounter attributes:
-1. **Clinical Action:** All received an IV Calcium Gluconate infusion.
-2. **Flag Dependency:** All had a "Low Calcium" flag triggered immediately prior to the infusion.
-3. **The Chaos Zone:** All had minimum pre-infusion values between **8.0 and 9.3 mg/dL**—the range where institutional "truth" is most fragmented.
+1. **Flag Dependency:** All had a "Low Calcium" flag triggered immediately prior to any infusion received.
+2. **The Chaos Zone:** All had minimum serum calcium values between **8.0 and 9.3 mg/dL**—the range where institutional "truth" is most fragmented.
 
 #### Key Takeaways:
 * **Arbitrary Treatment Triggers:** In this 8.0–9.3 mg/dL range, a patient at **Site SE-1** (Treatment Rate: 0.0) would likely never have received the infusion, despite having an extreme statistical deviation ($Z_{fac}$ of -4.015). Conversely, a patient at **Site NE-2** (Treatment Rate: 0.554) had a greater than 50% chance of being infused based on the same biological value.
