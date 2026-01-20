@@ -57,8 +57,12 @@ To illustrate this problem, we analyzed 11,382 serum calcium results across 10 h
 *Analysis of individual patient encounters where Calcium results were evaluated against multiple, conflicting Lower Limits (LL) during a single stay.*
 
 ---
-
-<img width="402" height="58" alt="image" src="https://github.com/user-attachments/assets/e8ec3315-849f-451c-9771-569af1d79469" />
+> [!IMPORTANT]
+>
+> ### ⚠️ Interpretation Whiplash:
+> This image was taken from a single flowsheet row from a single patient encounter: "low" flags jitter on and off inexplicably while measured values are increasing...
+> 
+> <img width="402" height="58" alt="image" src="https://github.com/user-attachments/assets/e8ec3315-849f-451c-9771-569af1d79469" />
 
 ---
     
